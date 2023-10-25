@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" type="text/css" href="gramado.css" />
+  <title>Clima em Gramado, RS</title>
+</head>
+
+<body>
+  <header>
+    <h1>Clima em Gramado, RS</h1>
+    <div class="menu-toggle">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="/index.html/index.html"> Página Inicial </a></li>
+      <li><a href="pturistico.html"> Pontos Turísticos </a></li>
+      <li><a href="clima.html"> Clima em Gramado </a></li>
+      <li><a href="chegar.html"> Como chegar em Gramado? </a></li>
+      <li><a href="contato.html"> Contato </a></li>
+    </ul>
+  </nav>
+
+  <figura>
+    <img src="/imagens/climaa.jpg" alt="Clima em Gramado" />
+  </figura>
+
+  <p class="clima">
+    O clima em Gramado, de maneira geral, é tido como úmido temperado e com
+    muita instabilidade. Isso significa que mesmo no verão, você vai sentir
+    aquele friozinho no período noturno, principalmente para quem está
+    acostumado ao clima tropical, predominante no restante do país.
+  </p>
+
+  <p class="clima">
+    Apesar de possuir estações bem definidas durante o ano, Gramado apresenta
+    variações na temperatura com bastante frequência em função de sua
+    instabilidade climática.
+  </p>
+
+  <h3 class="clima">Verão</h3>
+  <p class="clima">
+    O clima em Gramado no verão é caracterizado por tardes quentes, podendo
+    atingir até 30 °C e noites frescas, que para algumas pessoas chegam a ser
+    frias, em função do vento gelado que sopra sobre a cidade.
+  </p>
+
+  <h3 class="clima">Outono</h3>
+
+  <p class="clima">
+    O outono é a estação mais seca da cidade, onde as temperaturas
+    dificilmente ultrapassam os 25 °C, mas podem baixar para até 5 °C,
+    especialmente durante o mês de junho.
+  </p>
+
+  <h3 class="clima">Inverno</h3>
+
+  <p class="clima">
+    O clima em Gramado no inverno é muito frio. Prepare-se para enfrentar dias
+    congelados onde as temperaturas despencam para 3 °C em julho. Nessa época
+    é comum as geadas, muita chuva e você poderá conviver com a neve, que
+    ocorre normalmente na metade de julho, principalmente durante as
+    madrugadas.
+  </p>
+
+  <h3 class="clima">Primavera</h3>
+
+  <p class="clima">
+    Na primavera o frio começa a abandonar a serra, mas não se engane, pois,
+    apesar do sol começar a aparecer, as temperaturas costumam ficar entre
+    15 °C e 20 °C. Setembro é um mês que chove muito, mas a beleza das flores
+    e o colorido da natureza deixam a cidade belíssima.
+  </p>
+  <script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('nav ul');
+
+    menuToggle.addEventListener('click', () => {
+        nav.classList.toggle('show');
+    });
+</script>
+</body>
+
+
+
+</html>

@@ -1,0 +1,236 @@
+/* Estilos gerais para o corpo da página */
+body {
+  font-family: "Georgia", serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f0e3;
+}
+
+/* Estilos para o cabeçalho */
+header {
+  background-color: #d4a88c;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 36px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Estilos para a barra de navegação */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  background-color: #b39078;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Estilos para o menu hamburguer */
+
+
+/* Estilos para mostrar o menu */
+nav ul.show {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  background-color: #b39078;
+  z-index: 1;
+}
+
+nav ul.show li {
+  margin: 15px 0;
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+      display: flex;
+  }
+
+  nav ul {
+      display: none;
+  }
+}
+
+
+figura img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.clima p {
+  font-size: 16px;
+  margin: 20px;
+  margin-top: 10vh;
+  padding: 30px;
+  background-color: #fff; 
+  border: 1px solid #d4a88c; 
+}
+
+
+.clima h3 {
+  font-size: 24px;
+  margin-top: 4vh;
+  color: #fff; 
+}
+
+
+fieldset {
+  border: 2px solid #d4a88c; 
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+}
+
+legend {
+  font-size: 24px;
+  color: #d4a88c; 
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+form div {
+  margin: 10px 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #d4a88c; 
+}
+
+input[type="text"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d4a88c; 
+  border-radius: 5px;
+  background-color: #f7f0e3;
+  color: #333;
+}
+
+textarea {
+  height: 150px;
+}
+
+button[type="submit"],
+button[type="reset"] {
+  background-color: #d4a88c; 
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+button[type="reset"] {
+  background-color: #b39078; 
+}
+
+button[type="submit"]:hover,
+button[type="reset"]:hover {
+  background-color: #b39078; 
+}
+
+
+/* Estilos para mostrar o menu no celular (iPhone XR e SE) */
+.menu {
+  display: none;
+  cursor: pointer;
+}
+
+.nav-list {
+  list-style-type: none;
+  padding: 0;
+  background-color: #b39078;
+  text-align: center;
+}
+
+.nav-list li {
+  display: block;
+  margin: 0;
+  padding: 15px;
+}
+
+.nav-list.active {
+  display: block;
+}
+
+.menu
+{
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+/* Estilos para mostrar o menu */
+nav ul.show {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  background-color: #b39078;
+  z-index: 1;
+}
+
+nav ul.show li {
+  margin: 15px 0;
+}
+
+@media (max-width: 414px) {
+  .menu{
+    display: block;
+    align-items: center;
+  }
+
+  .menu img 
+  {
+    height: 3vh;
+  }
+
+  nav ul {
+      display: none;
+  }
+}
+
+/* Estilos para mostrar o menu no celular (iPhone XR e SE) */
+@media (max-width: 414px) {
+  .menu{
+    display: block;
+    align-items: center;
+  }
+
+  .menu img 
+  {
+    height: 3vh;
+  }
+}
